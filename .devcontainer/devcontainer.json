@@ -1,7 +1,7 @@
 {
   "name": "ROS2 Docker",
   "dockerComposeFile": [
-    "../docker_compose_nav2_humble/docker-compose-nvidia.yml"
+    "../docker_compose_nav2_humble/docker-compose-gui.yml"
   ],
   "service": "ros2_docker",
   "workspaceFolder": "/home/robot/master_ros2_humble_ws",  
