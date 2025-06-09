@@ -38,6 +38,24 @@ cp -r ~/nav2_gps_docker_tutorial/navigation2_tutorials ~/master_ros2_humble_ws/s
 ```
 
 
+## Using Dev Container
+
+Open the repository folder in VSCode with DevContainer installed and you can work on the docker
+
+Source the following in each terminal for running the command
+```
+
+source /ros_entrypoint.sh
+
+colcon build
+
+source install/setup.bash
+
+```
+
+
+OR
+
 ## Starting Nav2 using Docker Compose
 
 ```
@@ -85,7 +103,7 @@ ros2 launch nav2_gps_waypoint_follower_demo mapviz.launch.py
 In mapviz set custom path of image as
 
 ```
-file:///home/robot/master_ros2_humble_ws/src/test_no_alpha//{level}/{x}/{y}.png
+file:///home/<user_name>/master_ros2_humble_ws/src/test_no_alpha/{level}/{x}/{y}.png
 
 ```
 
