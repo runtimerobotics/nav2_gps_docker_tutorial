@@ -90,3 +90,8 @@ file:///home/robot/master_ros2_humble_ws/src/test_no_alpha//{level}/{x}/{y}.png
 ```
 
 or open mapviz_config.mvc from ~/master_ros2_humble_ws/src
+
+
+# Reference
+
+- Github [issues](https://github.com/ros-navigation/navigation2_tutorials/issues/77)
